@@ -44,7 +44,7 @@ const useStyles = makeStyles(theme => ({
 
 
 function DashboardLayout(props) {
-	const [open, setOpen] = useState(true);
+	const [open, setOpen] = useState(false);
 	const [darkState, setDarkState] = useState(false);
 	const palletType = darkState ? "dark" : "light";
 	const mainPrimaryColor = darkState ? orange[500] : lightBlue[500];
